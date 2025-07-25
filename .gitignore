@@ -1,13 +1,23 @@
 # Python
-venv/
 __pycache__/
-
-# Node
-node_modules/
-.env
+*.py[cod]
+*.egg
+*.egg-info/
 dist/
 build/
+*.log
 
-# OS
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Node.js (optional, if you're using it)
+node_modules/
+
+# OS Files
 .DS_Store
 Thumbs.db
+
+# Environment Variables
+.env
